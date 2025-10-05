@@ -1,0 +1,379 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.minerva.erp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="29" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:4:5-71
+12-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:4:22-68
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:5:5-68
+13-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:5:22-65
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:6:5-77
+14-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:6:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+15-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:7:5-88
+15-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:7:22-85
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:8:5-78
+16-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:8:22-75
+17    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+17-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:9:5-95
+17-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:9:22-92
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:10:5-77
+18-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:10:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_TYPE_MICROPHONE" />
+19-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:11:5-93
+19-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:11:22-90
+20    <uses-permission android:name="android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+20-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:12:5-118
+20-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:12:22-115
+21    <uses-permission android:name="android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND" />
+21-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:13:5-99
+21-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:13:22-96
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:14:5-81
+22-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:14:22-78
+23    <uses-permission android:name="android.permission.QUICKBOOT_POWERON" />
+23-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:15:5-76
+23-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:15:22-73
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
+24-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:22-76
+25
+26    <permission
+26-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+27        android:name="com.minerva.erp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.minerva.erp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:17:5-66:19
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.10.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/aa6b0330bb7e28c2165d5dc46a24ee93/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@android:drawable/ic_menu_manage"
+36-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:19:9-56
+37        android:label="@string/app_name" >
+37-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:18:9-41
+38        <activity
+38-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:21:9-31:20
+39            android:name="com.minerva.erp.MainActivity"
+39-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:22:13-41
+40            android:exported="true"
+40-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:23:13-36
+41            android:launchMode="singleTop"
+41-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:24:13-43
+42            android:screenOrientation="portrait"
+42-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:26:13-49
+43            android:theme="@style/LaunchTheme" >
+43-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:25:13-47
+44            <intent-filter>
+44-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:28:17-68
+45-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:28:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:29:17-76
+47-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:29:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Keyword Recognition Service -->
+52        <service
+52-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:34:9-42:19
+53            android:name="com.minerva.erp.service.KeywordService"
+53-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:35:13-51
+54            android:enabled="true"
+54-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:36:13-35
+55            android:exported="true"
+55-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:37:13-36
+56            android:foregroundServiceType="microphone" >
+56-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:38:13-55
+57            <intent-filter>
+57-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:39:13-41:29
+58                <action android:name="com.minerva.erp.service.KeywordService" />
+58-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:40:17-81
+58-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:40:25-78
+59            </intent-filter>
+60        </service>
+61
+62        <!-- Broadcast Receiver for Keyword Detection -->
+63        <receiver
+63-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:45:9-52:20
+64            android:name="com.minerva.erp.KeywordDetectionReceiver"
+64-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:46:13-53
+65            android:enabled="true"
+65-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:47:13-35
+66            android:exported="false" >
+66-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:48:13-37
+67            <intent-filter>
+67-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:49:13-51:29
+68                <action android:name="com.minerva.erp.KEYWORD_DETECTED" />
+68-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:50:17-75
+68-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:50:25-72
+69            </intent-filter>
+70        </receiver>
+71
+72        <!-- Boot Receiver for Auto-start -->
+73        <receiver
+73-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:55:9-65:20
+74            android:name="com.minerva.erp.BootReceiver"
+74-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:56:13-41
+75            android:enabled="true"
+75-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:57:13-35
+76            android:exported="true" >
+76-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:58:13-36
+77            <intent-filter android:priority="1000" >
+77-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:59:13-64:29
+77-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:59:28-51
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:60:17-79
+78-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:60:25-76
+79                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+79-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:61:17-84
+79-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:61:25-81
+80                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+80-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:62:17-81
+80-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:62:25-78
+81
+82                <data android:scheme="package" />
+82-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:63:17-50
+82-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:63:23-47
+83            </intent-filter>
+84        </receiver>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+88            android:authorities="com.minerva.erp.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/c38ce076afabb6bdbb35455e142c21a3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+94                android:name="androidx.work.WorkManagerInitializer"
+94-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+95                android:value="androidx.startup" />
+95-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/9871db4a78f1e70ee03e415dd1879e4e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/9871db4a78f1e70ee03e415dd1879e4e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/9871db4a78f1e70ee03e415dd1879e4e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+99        </provider>
+100
+101        <service
+101-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+102            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+102-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+103            android:directBootAware="false"
+103-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+104            android:enabled="@bool/enable_system_alarm_service_default"
+104-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+105            android:exported="false" />
+105-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+106        <service
+106-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+107            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+107-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+108            android:directBootAware="false"
+108-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+109            android:enabled="@bool/enable_system_job_service_default"
+109-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+110            android:exported="true"
+110-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+112        <service
+112-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+113            android:name="androidx.work.impl.foreground.SystemForegroundService"
+113-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+114            android:directBootAware="false"
+114-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+115            android:enabled="@bool/enable_system_foreground_service_default"
+115-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+116            android:exported="false" />
+116-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+117
+118        <receiver
+118-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+119            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+119-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+120            android:directBootAware="false"
+120-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+121            android:enabled="true"
+121-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+122            android:exported="false" />
+122-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+123        <receiver
+123-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+124            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+124-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+126            android:enabled="false"
+126-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+127            android:exported="false" >
+127-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+128            <intent-filter>
+128-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+129                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+129-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+129-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+130                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+130-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+130-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+131            </intent-filter>
+132        </receiver>
+133        <receiver
+133-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+134            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+134-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+135            android:directBootAware="false"
+135-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+136            android:enabled="false"
+136-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+137            android:exported="false" >
+137-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+138            <intent-filter>
+138-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+139                <action android:name="android.intent.action.BATTERY_OKAY" />
+139-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+139-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+140                <action android:name="android.intent.action.BATTERY_LOW" />
+140-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+140-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+144-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+146            android:enabled="false"
+146-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+147            android:exported="false" >
+147-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+148            <intent-filter>
+148-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+149                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+149-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+149-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+150                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+150-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+150-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+151            </intent-filter>
+152        </receiver>
+153        <receiver
+153-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+154            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+154-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+155            android:directBootAware="false"
+155-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+156            android:enabled="false"
+156-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+157            android:exported="false" >
+157-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+158            <intent-filter>
+158-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+159                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+159-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+159-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+160            </intent-filter>
+161        </receiver>
+162        <receiver
+162-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+163            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+163-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+165            android:enabled="false"
+165-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+166            android:exported="false" >
+166-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+167            <intent-filter>
+167-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+168                <action android:name="android.intent.action.BOOT_COMPLETED" />
+168-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:60:17-79
+168-->/Users/pabloantoniodelpinorubio/Minerva/minerva-app/android/app/src/main/AndroidManifest.xml:60:25-76
+169                <action android:name="android.intent.action.TIME_SET" />
+169-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+169-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+170                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+170-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+170-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+174            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+174-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+176            android:enabled="@bool/enable_system_alarm_service_default"
+176-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+178            <intent-filter>
+178-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+179                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+179-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+179-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+180            </intent-filter>
+181        </receiver>
+182        <receiver
+182-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+183            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+183-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+184            android:directBootAware="false"
+184-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+185            android:enabled="true"
+185-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+186            android:exported="true"
+186-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+187            android:permission="android.permission.DUMP" >
+187-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+188            <intent-filter>
+188-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+189                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+189-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+189-->[androidx.work:work-runtime:2.8.1] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/dcdefe1376844503894a24218a50b76c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+190            </intent-filter>
+191        </receiver>
+192
+193        <service
+193-->[androidx.room:room-runtime:2.5.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/04ca53b52ee8bd67c74932005f045020/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+194            android:name="androidx.room.MultiInstanceInvalidationService"
+194-->[androidx.room:room-runtime:2.5.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/04ca53b52ee8bd67c74932005f045020/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+195            android:directBootAware="true"
+195-->[androidx.room:room-runtime:2.5.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/04ca53b52ee8bd67c74932005f045020/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+196            android:exported="false" />
+196-->[androidx.room:room-runtime:2.5.0] /Users/pabloantoniodelpinorubio/.gradle/caches/8.13/transforms/04ca53b52ee8bd67c74932005f045020/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+197    </application>
+198
+199</manifest>

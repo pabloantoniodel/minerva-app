@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minerva ERP</string>
+    <string name="service_notification_title">Minerva ERP - Always Listening</string>
+    <string name="service_notification_text">Say minerva to activate voice commands</string>
+</resources>

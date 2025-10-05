@@ -1,21 +1,24 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
 }
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion "34.0.0"
+    namespace "com.minerva.erp"
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.minerva.erp"
-        minSdkVersion 21
-        targetSdkVersion 34
+        minSdk 29
+        targetSdk 29
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        
+        ndk {
+            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
+        }
     }
 
     buildTypes {
@@ -26,12 +29,12 @@ android {
     }
     
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
 }
 
@@ -52,9 +55,6 @@ dependencies {
     implementation 'androidx.work:work-runtime-ktx:2.8.1'
     implementation 'androidx.lifecycle:lifecycle-service:2.5.1'
     implementation 'androidx.core:core:1.10.1'
-    
-    // Flutter
-    implementation 'io.flutter:flutter_embedding_debug:1.0.0-4c4f7f5388b5bcc2d3d8f8b8b8b8b8b8'
     
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

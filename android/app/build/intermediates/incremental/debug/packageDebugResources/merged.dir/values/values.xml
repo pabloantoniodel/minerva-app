@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Minerva ERP</string>
+    <string name="service_notification_text">Say minerva to activate voice commands</string>
+    <string name="service_notification_title">Minerva ERP - Always Listening</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="NormalTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+</resources>
